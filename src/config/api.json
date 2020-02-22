@@ -1,0 +1,9 @@
+{
+    "API": {
+        "RECENT":"https://www.flickr.com/services/rest/?method=flickr.photos.getRecent",
+        "PHOTO_INFO":"https://www.flickr.com/services/rest/?method=flickr.photos.getInfo",
+        "KEY":"&api_key=880d03018e6a713c9c7d994b5076154c",
+        "SECRET": "&secret=a2391060a13f1f2f",
+        "END":"&format=json&nojsoncallback=1"
+    }
+}
