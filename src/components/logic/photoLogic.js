@@ -17,13 +17,13 @@ export const Photos = (props) => {
 
     return (
         <>
-        {props.loading ?  <Loader
+        {props.loading ?  <div style={{width: '100%'}}><Loader
                             type="Audio"
-                            color="#2C4B9F"
+                            color="teal"
                             height={400}
                             width={100}
                             timeout={300000}
-                            /> : 
+                            /></div> : 
                         <PhotoComponent photos={photos} clicked={clickHandler}/>}
         </>
     )

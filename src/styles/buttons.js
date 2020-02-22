@@ -3,7 +3,7 @@ import styled from 'styled-components';
 const primary = styled.button`
     display: inline-block;
     width: 17%;
-    height: 70%;
+    height: 50%;
     background-color: teal;
     border: none;
     outline: none;
@@ -22,12 +22,16 @@ const primary = styled.button`
     }
     &focus {
         
+    }
+    @media (max-width: 800px) {
+        font-size: .7rem;
+        height: 40%;
     }`
 
     const locked = styled.button`
     display: inline-block;
     width: 17%;
-    height: 70%;
+    height: 50%;
     background-color: #004646;
     border: none;
     outline: none;
@@ -35,7 +39,7 @@ const primary = styled.button`
     color: grey;
     margin: 0px 10px 0px 10px;
     border-radius: 25px;
-    
+
     &:hover {
         background-color: #004646;
     };
@@ -44,6 +48,11 @@ const primary = styled.button`
     }
     &focus {
         
+    }
+    
+    @media (max-width: 800px) {
+        font-size: .7rem;
+        height: 40%;
     }`
 
 export const Buttons = {

@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const MainContainer = styled.div`
     display: grid;
     grid-template-columns: .7fr .3fr .9fr;
-    grid-template-rows: 90px .5fr .8fr;
+    grid-template-rows: 100px .5fr .8fr;
     width: 100%;
     height: 900px;
     width: 90%;
@@ -15,7 +15,7 @@ export const MainContainer = styled.div`
     @media (min-width: 800px) {
         height: 600px;
         grid-template-columns: .7fr .3fr .9fr;
-        grid-template-rows: 90px auto auto;
+        grid-template-rows: 100px auto auto;
         grid-template-areas: 
             'nav nav nav'
             'photoGrid photoGrid photoGrid'
